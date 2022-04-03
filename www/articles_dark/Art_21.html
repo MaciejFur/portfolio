@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="pl-PL">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="../img/Favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/Favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/Favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/Favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/Favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/Favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/Favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/Favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/Favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../img/Favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/Favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="../img/Favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+    <title>Shadery i particle</title>
+    
+  </head>
+  <body class="bg-dark text-white">
+    <!-- NAVBAR -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #161616;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../dark/">Mikołaj Musialik | Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                🌍
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <h6 class="dropdown-header">Język</h6>
+                <li><a class="dropdown-item" href="../articles_dark_en/Art_21.html">English</a></li>
+                <li><a class="dropdown-item" href="./Art_21.html">Polski</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ⚫
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <h6 class="dropdown-header">Tryb</h6>
+                    <li><a class="dropdown-item" href="./Art_21.html">⚫ Ciemny</a></li>
+                    <li><a class="dropdown-item" href="../articles/Art_21.html">⚪ Jasny</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- Mikroprojekty -->
+<section class="py-5">
+    <div class="container">
+        <h1 class="mb-4">Shadery i particle w Unity:</h1><hr>
+    </div>
+    <div class="container">    
+        <div class="container">      
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="mb-4">Kreskówkowa woda</h2>
+                    <p> Woda w kreskówkowym stylu z pianą na krawędziach, falami, gradientem głębokości oraz drobnymi refleksjami na powierzchni.
+                        <br> Przygotowana na potrzeby tworzonej gry <b><a style="text-decoration: none;" href="./Art_01.html">CubeLoop</a></b>.           
+                        <br><br><i>Przygotowane pod: </i><b>Unity Universal Render Pipeline</b>  
+                    </p>                                     
+                    <div class="btn-group-vertical" role="group" aria-label="Basic example">
+                      <a href="https://github.com/IKOMMM/Miko_Shaders_Library_UNITY/tree/main/CartonWater_Miko" class="btn btn-outline-secondary text-white" target="_blank">Repozytorium</a>
+                    </div><br><br>
+                </div>
+                <div class="col-lg-6"><img class="img-fluid rounded" src="../img/Art_21/Art_21_01.gif" alt="..." /></div>
+            </div><hr>
+        </div>
+        <div class="container">      
+          <div class="row">
+              <div class="col-lg-6">
+                  <h2 class="mb-4">Efekt Matrix</h2>
+                  <p> Shader inspirowany efektem przemiany całego świata w ciągi znaczków rodem z filmów Matrix. Projekt laboratoryjny.
+                      <br> Możliwość użycia efektu zarówno do zmiany całego otoczenia jak i pojedynczych obiektów.    
+                      Opcja przemiany na pojedynczej teksturze jak i równocześnie na każdym obiekcie.
+                      <br><br><i>Przygotowane pod: </i><b>Unity Universal Render Pipeline</b> 
+                  </p>                                     
+                  <div class="btn-group-vertical" role="group" aria-label="Basic example">
+                    <a href="https://github.com/IKOMMM/Miko_Shaders_Library_UNITY/tree/main/MatrixEffect_Miko" class="btn btn-outline-secondary text-white" target="_blank">Repozytorium</a>
+                  </div><br><br>
+              </div>
+              <div class="col-lg-6"><img class="img-fluid rounded" src="../img/Art_21/Art_21_02.gif" alt="..." /></div>
+          </div><hr>
+      </div>
+        <div class="container">      
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="mb-4">Efekt deszczu</h2>
+                    <p> Efekt kropel opadających na powierzchnię. Projekt laboratoryjny.
+                      <br>Oczka różnej wielkości z różną częstliwością.  
+                      <br><br><i>Przygotowane pod: </i><b>Unity Universal Render Pipeline</b>  
+                                
+                    </p>                                     
+                    <div class="btn-group-vertical" role="group" aria-label="Basic example">
+                     <a href="https://github.com/IKOMMM/Miko_Shaders_Library_UNITY/tree/main/Raindrops_Miko" class="btn btn-outline-secondary text-white" target="_blank">Repozytorium</a>
+                   </div><br><br>
+                </div>
+                <div class="col-lg-6"><img class="img-fluid rounded" src="../img/Art_21/Art_21_03.gif" alt="..." /></div>
+            </div><hr>
+        </div>  
+            <div class="container">      
+                <div class="row">
+                    <div class="col-lg-6">
+                      <h2 class="mb-4">Efekt zanikania (różne warianty)</h2>
+                      <p> Efekt zanikania z możliwością wyboru koloru obwódki, edycją intensywności efektu oraz ustawieniem czasu przechodzenia lub zapętlenia efektu. Projekt laboratoryjny.
+                        <br> Różne warianty shadera.        
+                      
+                      <ul>    
+                        <b>Warianty:</b>              
+                        <li>Zanikanie</li>
+                        <li>Zanikanie z edytowalną obwódką</li>
+                        <li>Zanikanie transparentych pasów</li>
+                      </ul>      
+                      <i>Przygotowane pod: </i><b>Unity Universal Render Pipeline</b>
+                    </p>                                  
+                      <div class="btn-group-vertical" role="group" aria-label="Basic example">
+                        <a href="https://github.com/IKOMMM/Miko_Shaders_Library_UNITY/tree/main/Dissolve_Miko" class="btn btn-outline-secondary text-white" target="_blank">Repozytorium</a>
+                      </div><br><br>
+                    </div>
+                    <div class="col-lg-6"><img class="img-fluid rounded" src="../img/Art_21/Art_21_04.gif" alt="..." /></div>
+                </div>
+            </div><hr>
+          <div class="container">      
+          <div class="row">
+              <div class="col-lg-6">
+                  <h2 class="mb-4">Efekt telewizora kineskopowego</h2>
+                  <p> Efekt uszkodzonego telewizora Kineskopowego.      
+                    Możliwość edycji intensywności przesuwania się lini. Projekt laboratoryjny.
+                    <br><br><i>Przygotowane pod: </i><b>Unity Universal Render Pipeline</b>      
+                </p>                                     
+                <div class="btn-group-vertical" role="group" aria-label="Basic example">
+                  <a href="https://github.com/IKOMMM/Miko_Shaders_Library_UNITY/tree/main/OldTV_Miko" class="btn btn-outline-secondary text-white" target="_blank">Repozytorium</a>
+                </div><br><br>
+              </div>
+              <div class="col-lg-6"><img class="img-fluid rounded" src="../img/Art_21/Art_21_05.gif" alt="..."/></div>
+            </div>
+        </div>         
+    </div>    
+  </section>
+
+    <footer class="py-2 bg-dark" style="color: gray-dark;">
+        <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Mikołaj Musialik 2021 <b><a href="#" style="text-decoration: none;" class="m-0 text-center text-white">Wróć na górę</a></b></p></div>
+    </footer>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
